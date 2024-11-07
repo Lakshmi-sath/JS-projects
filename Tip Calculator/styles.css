@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #C4DAD2;
+  --secondary-color: #0A7273;
+  --text-color: #033043;
+
+  --font-mona: "Mona Sans", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #E4E0E1;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--primary-color);
+  width: 40%;
+  height: max-content;
+  padding: 2rem 0; 
+  margin-inline: auto;
+  transform: translateY(40%);
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-family: var(--font-mona);
+  letter-spacing: 0.25rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-family: var(--font-roboto);
+}
+
+label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin: 1rem;
+  font-family: var(--font-roboto);
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--secondary-color);
+  text-align: center;
+  width: 220px;
+  font-family: var(--font-roboto);
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.amt-div {
+  margin: 2rem auto 2.5rem 1.75rem;
+}
+
+.tip-div {
+  margin-bottom: 2rem;
+}
+
+#btn {
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: var(--font-roboto);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+ 
+#btn:hover {
+  background-color: #105152;
+  box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.total {
+  text-align: left;
+  margin-left: 9rem;
+  margin-top: 1rem;
+  font-family: var(--font-roboto);
+  font-size: 1.1rem;
+}
+
+.t-head {
+  color: var(--text-color);
+}
+
+#total-amt {
+  color: #088395;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
