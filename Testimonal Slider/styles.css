@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #FAF6E3;
+  --secondary-color: #D8DBBD;
+  --text-color: #243642;
+  --name: #1A3636;
+
+  --font-1: "Faculty Glyphic", sans-serif;
+  --font-2: "Nunito", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transform: translateY(100%);
+}
+
+img {
+  width: 6rem;
+  height: 7rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+}
+
+.card {
+  background-color: var(--secondary-color);
+  margin: auto;
+  width: 450px;
+  height: 100px;
+  text-align: center;
+  border-radius: 2rem;
+  position: relative;
+  padding: 70px 30px 30px 30px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: var(--font-2);
+  transition: ease-in 1s;
+}
+
+span {
+  font-family: var(--font-1);
+  float: right;
+  color: var(--name);
+}
