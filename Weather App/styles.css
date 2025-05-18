@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eef1da;
+	color: #183B4E;
+}
+
+.card {
+	width: 400px;
+	background: linear-gradient(135deg, #4ed7f1, #304e72);
+	height: max-content;
+	margin: 5rem auto;
+	padding: 2rem;
+	border-radius: 15px;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	padding: 0.2rem 1.5rem;
+	width: 300px;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	margin: auto;
+}
+
+input {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding: 0.5rem;
+}
+
+.card svg {
+	width: 16px;
+	align-self: center;
+	color: black;
+}
+
+.weather-icon {
+	width: 160px;
+}
+
+.details {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1.5rem;
+}
+
+.details img {
+	width: 25px;
+}
+
+.details p {
+	font-size: 0.90rem;
+	font-weight: 500;
+}
+
+.weather {
+	display: none;
+}
+
+.error {
+	display: none;
+	text-align: center;
+	font-size: 0.9rem;
+	margin: 0.5rem;
+}
